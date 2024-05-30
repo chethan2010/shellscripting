@@ -1,8 +1,8 @@
 #!bin/bash
-i=$1
-if [ $i -gt 10] 
+Number=$1
+if [ $Number -gt 10] 
 then 
-echo "given $i  is greter than 10"
+echo "given $Number  is greter than 10"
 else 
-echo "given $i is less than 10"
+echo "given $Number is less than 10"
 fi
