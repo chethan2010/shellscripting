@@ -1,5 +1,5 @@
 #!bin/bash
-Number=$1
+Number=$100
 if [ $Number1 -gt 10] 
 then 
 echo "given $Number1  is greter than 10"
