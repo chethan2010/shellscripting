@@ -6,5 +6,4 @@ echo "given $Number1  is greter than 10"
 else 
 echo "given $Number1 is less than 10"
 fi
-
-# -gt ,-eq ,-lt
+# -gt ,-eq ,-lt -ge, -le
