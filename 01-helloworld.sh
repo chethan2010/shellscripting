@@ -1,1 +1,4 @@
-This a Dummy Folder
+!#/bin/bash
+#First shell script Hello world
+
+echo "Hello Hemanth to Welcome to Shl Script"
