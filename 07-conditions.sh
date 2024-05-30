@@ -1,5 +1,5 @@
 #!bin/bash
-i=$100
+i=$1
 if [$i -gt 10] 
 then 
 echo "given $i  is greter than 10"
