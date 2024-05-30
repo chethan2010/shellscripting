@@ -8,4 +8,4 @@ echo "Home directory of current user: $HOME"
 echo "Which user is running this script: $USER"
 echo "Hostname:$HOSTNAME"
 echo "Process ID of the current shell script: $$"
-
+echo "Process ID of last back groud ID: $!"
