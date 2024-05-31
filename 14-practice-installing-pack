@@ -1,7 +1,24 @@
 #!/bin/bash
 
 USERID=$(id -u)
+TIMESTAMP=$(date +%F-%H-%M-%S)
+SCRIPT_NAME=$(echo $0 | cut -d "." -f1)
+LOGFILE=/tmp/$SCRIPT_NAME/$TIMESTAMP.log
+R="\e[31m"
+
 if [ $USERID -ne 0 ]
+
+echo "Script started Executing at: $SCRIPT_NAME"
+ 
+ VALIDATE(){
+    if [$1 -ne 0 ]
+    then 
+       echo -e "$2...success"
+    else
+       echo -e "$2...Failure"
+       
+ }
+
 then 
     echo  "Please run this script with root access"
     exit 1
